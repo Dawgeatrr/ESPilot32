@@ -6,7 +6,7 @@ Unlike micro-scale racing boards, the ESPilot32 prioritizes structural durabilit
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 * **Dual-Core Architecture:** Dedicated core for high-frequency PID loops and sensor fusion, leaving the second core free for telemetry and wireless communication.
 * **Universal Airframe Support:** Configurable mixer maps for multirotors, traditional airplanes, flying wings, and VTOL transition aircraft.
@@ -16,15 +16,15 @@ Unlike micro-scale racing boards, the ESPilot32 prioritizes structural durabilit
 
 ---
 
-## 🛠️ Hardware Specifications
+## Hardware Specifications
 
 | Component | Specification |
 | :--- | :--- |
 | **MCU** | ESP32-WROOM-32 (Dual-Core 32-bit Xtensa LX6 @ 240MHz) |
-| **IMU** | [e.g., MPU6050 / ICM-42688-P] (6-Axis Gyro + Accelerometer) |
+| **IMU** | [e.g., MPU6050 / ICM-42688-P] |
 | **Barometer** | [e.g., BMP280 / MS5611] (For precise altitude hold) |
 | **Input Voltage** | [e.g., 2S - 6S LiPo LiPo Input] |
-| **BEC Output** | [e.g., 5V @ 3A / 3.3V @ 1A] |
+| **Output Voltage** | [5V @ 8A && 12V @ 8A && 3V3 @ 5A] |
 | **Flash Memory** | 4MB / 8MB (For blackbox data logging) |
 
 ---
